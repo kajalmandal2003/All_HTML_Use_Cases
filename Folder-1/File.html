@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product card</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+
+        .card{
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 04px,8px rgba(0, 0, 0, 0.2);
+            text-align: left;
+            width: 450px;
+            height: 300px;
+        }
+
+        .back-link{
+         color: rgb(0, 113, 133);
+         font-size: 22px;
+        }
+        
+       .back-link:hover{
+        text-decoration: underline;
+       }
+
+       .product-title{
+        font-size: 22px;
+        font-weight: bold;
+        margin: 20px 0;
+       }
+
+       .price{
+        font-size: 18px;
+        font-weight: bold;
+        color: green;
+       }
+
+       .delivery{
+        margin: 20px 0;
+        font-size: 18px;
+       }
+
+       .Buttons{
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+       }
+
+       .Add-button{
+        flex: 1;
+        padding: 10px;
+        font-size: 18px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        margin: 10px;
+        background-color: #ffcc00;
+       }
+      
+       .Buy-button{
+        flex: 1;
+        padding: 10px;
+        font-size: 18px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        margin: 10px;
+        background-color: #ff9900;
+       }
+        
+        
+        
+        
+
+    </style>
+
+</head>
+<body>
+    <div class="card">
+        <a href="https://www.amazon.in/" class="back-link">Back to Amazon</a>
+        <h2 class="product-title">Nike Black Running Shoes</h2>
+        <p class="price">$39 - in stock</p>
+        <div class="Buttons">
+        <p class="delivery">Free delivery tomorrow</p>
+        <button class="Add-button">Add to Cart</button>
+        <button class="Buy-button">Buy now</button>
+  </div>
+
+    </div>
+</body>
+</html>
